@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void caul1(){
+void cau1(){
 	const float PI = 3.14;
 	// Viet chuong trinh dien tich va chu vi hinh tron voi ban kinh r
 	int r;
@@ -11,7 +11,7 @@ void caul1(){
 	cout << "Dien tich: " << PI * r * r << endl;
 	cout << "Chu vi: " << 2 * PI * r << endl; 
 }
-void caul2() {
+void cau2() {
 	int luong, phucap;
 	cout << "Nhap luong: ";
 	cin >> luong;
@@ -20,5 +20,5 @@ void caul2() {
 	cout << "Thuc hanh: " << (luong + phucap) * 0.9 << endl;
 }
 int main() {
-	caul1();
+	cau1();
 }
