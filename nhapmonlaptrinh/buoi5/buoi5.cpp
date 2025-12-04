@@ -26,8 +26,17 @@ void cau() {
 	cout << max;
 
 }
+void cau2() {
+	int a, b;
+	cout << "Nhap a, b: ";
+	cin >> a >> b;
+	if (a * b > 0)
+		cout << "cung dau";
+	else
+		cout << "Khac dau";
+}
 int main()
 {
-	cau();
+	cau2();
 }
 
