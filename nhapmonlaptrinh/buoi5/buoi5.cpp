@@ -88,8 +88,28 @@ void cau5() {
 		cout << "Khong la tam giac" << endl;
 	}
 }
+void cau6() {
+	int a, b, c;
+	cout << "Nhap ba so a, b, c: ";
+	cin >> a >> b >> c;
+	if (a == 0) {
+		if (b == 0) {
+			if (c == 0)
+				cout << "Vo so nghiem" << endl;
+			else
+				cout << "Vo nghiem" << endl;
+		
+
+			
+		
+			
+		}
+	}
+	
+	
+}
 int main()
 {
-	cau5();
+	cau6();
 }
 
