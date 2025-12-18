@@ -1,10 +1,14 @@
 
 #include "Array.h"
-const int Max = 100;
+#define  Max 100
 
 
 int main()
 {
     int a[Max], n = 0;
+    input(a, n);
+    //output(a, n);
+   // giatrichan(a, n);
+    vitriam(a, n);
 }
 
